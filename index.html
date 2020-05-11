@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/challenge.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-1">
+        <h2>Challenge1:Your Age in Days</h2>
+        <div class="flex-container-1">
+            <div>
+                <button class="btn btn-primary" id="btn-click-me">Click Me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" id="btn-reset">Reset</button>
+            </div>
+        </div>
+        <div class="flex-container-1">
+            <div id="flex-result"></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Challenge2 : CAT Generator</h2>
+        <div class="flex-container-2">
+            <button class="btn btn-success" id="generate-cat">Generate Cat</button>
+        </div>
+        <div class="flex-container-3" id="cat-result">
+        </div>
+    </div>
+
+    <div class="container-4">
+
+        <h2>Challenge 3:Rock, Paper , Scissors</h2>
+        <Button class="btn btn-success" onclick="refresh()">Play Match</Button>
+        <div class="flex-container-rps" id="flex-rps">
+            <img src="./image/rock.jpg" id="rock" width="150" height="150" onclick=imageSelector(this)>
+            <img src="./image/paper.jpg" id="paper" width="150" height="150" onclick=imageSelector(this)>
+            <img src="./image/scissor.jpg" id="scissor" width="150" height="150" onclick=imageSelector(this)>
+        </div>
+    </div>
+
+    <div class="container-5">
+        <h2>Challenge 5:BlackJack</h2>
+        <h4 id="bj-play">Lets Play</h4>
+        <div id="black-jack-dealer-table">
+            <div id="black-jack-you">
+                <div>
+                    <span id="you-span">You:</span>
+                    <span id="bj-you-score">0</span>
+                </div>
+                <div id="you-in-table">
+
+                </div>
+            </div>
+            <div id="black-jack-dealer">
+                <div>
+                    <span id="dealer-span">Dealer :</span>
+                    <span id="bj-dealer-score">0</span>
+                </div>
+                <div id="dealer-in-table">
+
+                </div>
+            </div>
+        </div>
+        <div id="black-jack-button">
+            <div>
+                <button class="btn btn-primary" id="btn-hit">Hit</button>
+                <button class="btn btn-warning" id="btn-stand">Stand</button>
+                <button class="btn btn-danger" id="btn-deal">Deal</button>
+            </div>
+        </div>
+        <div id="black-jack-score-board">
+            <div>
+                <table>
+                    <tr>
+                        <th>Win</th>
+                        <th>Losses</th>
+                        <th>Draw</th>
+                    </tr>
+                    <tr>
+                        <td id ="win">0</td>
+                        <td id ="loss">0</td>
+                        <td id ="draw">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
